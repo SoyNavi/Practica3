@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio Personal</title>
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpeg" alt="Iván Azuara" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Iván Azuara">Iván Azuara</h1>
+
+          <p class="title">Ingeniero</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span></span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:mazuara839@gmail.com" class="contact-link">mazuara839@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Telefono</p>
+
+              <a href="tel:+527891119995" class="contact-link">+52 (789) 111-9995</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Cumpleaños</p>
+
+              <time datetime="1982-06-23">Diciembre 3, 2003</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Ubicacion</p>
+
+              <address>Tempoal, Veracruz, México</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://steamcommunity.com/profiles/76561199025423651/" class="social-link">
+              <ion-icon name="logo-steam"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/SoyNavi" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.twitch.tv/mojarratactica69" class="social-link">
+              <ion-icon name="logo-twitch"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>Acerca</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resumen</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portafolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="acerca active" data-page="acerca">
+
+        <header>
+          <h2 class="h2 article-title">Acerca de mi</h2>
+        </header>
+
+        <section class="acerca-text">
+          <p>
+            Hola, soy un estudiante de ingeniería en sistemas de 20 años de Tempoal, Veracruz, México.
+            Me considero un apasionado de los videojuegos y la música. Red Dead Redemption 2 es mi juego favorito de
+            todos los tiempos.
+            Además, soy un gran fanático de Star Wars y de la saga de libros de "Percy Jackson"
+            (Tambien estoy obsesionado con la saga de comics de "Scott Pilgrim" no comparto las ideas de la asquerosa
+            persona que es Scott, pero aun asi me gustan esos comics).
+          </p>
+
+          <p>
+            Aunque no suelo ser el tipo de persona que se emociona mucho con las películas, las obras cinemáticas
+            llenas de violencia de Quentin Tarantino y la pelicula protagonizada por Ryan Goslyng "Blade Runner 2049"
+            son de mis favoritas. Extraño a mi ex... pipipipipipi.
+          </p>
+        </section>
+
+        <!--
+          - Tutor Academico
+        -->
+
+        <section class="testimonials">
+
+          <h3 class="h3 testimonials-title">Tutores Academicos</h3>
+
+          <ul class="testimonials-list">
+
+            <li class="testimonials-item has-scrollbar">
+              <div class="content-card" data-testimonials-item>
+
+                <figure class="testimonials-avatar-box">
+                  <img src="./assets/images/avatar-1.jpg" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                </figure>
+
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>DRA. Lluvia Erendira Ponce Martinez</h4>
+
+                <div class="testimonials-text" data-testimonials-text>
+                  <p>
+                    La Dra. Lluvia Erendira Ponce Martínez es una destacada docente del Instituto Tecnologico Superior De Tantoyuca.  
+                    Su enfoque pedagógico se caracteriza por Mantener altos estándares de calidad en la enseñanza. Posee un profundo conocimiento 
+                    en su campo de enseñanza y posee una habilidad para transmitir conceptos complejos de manera clara y accesible para sus estudiantes.
+                  </p>
+                  <p>
+                    <b>Nota del estudiante:</b> Por favor maestra, Ya no encargue tantas tareas seguidas, no queremos que llueva tan fuerte.
+                  </p>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+
+        <!--
+          - Tutor Academico Plus
+        -->
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="DRA. Lluvia Erendira Ponce Martinez" width="80" data-modal-img>
+              </figure>
+
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>DRA. Lluvia Erendira Ponce Martinez</h4>
+
+              <time datetime="0000-00-00">Fecha desconocida </time>
+
+              <div data-modal-text>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+      </article>
+
+
+      <!--
+        - #RESUMEN
+      -->
+
+      <article class="resumen" data-page="resumen">
+
+        <header>
+          <h2 class="h2 article-title">resumen</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Educacion</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Instituto Tecnologico Superior De Tantoyuca</h4>
+
+              <span>2021 — Actualidad</span>
+
+              <p class="timeline-text">
+                Empecé mi formación universitaria en el año 2021 a la edad de 17 años. 
+                Actualmente, continúo mi desarrollo profesional en el campo de la ingeniería en sistemas computacionales.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Curso Online SoloLearn</h4>
+
+              <span>2019 — 2020</span>
+
+              <p class="timeline-text">
+                En mi educación autónoma, decidí ampliar mis conocimientos en programación web por mi cuenta. 
+                Me sumergí en un curso en línea llamado SoloLearn, donde adquirí los fundamentos de HTML y CSS. 
+                Aunque también comencé a explorar JavaScript, Nunca termine ese curso.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Colegio De Bachilleres del Estado De Veracruz COBAEV 02</h4>
+
+              <span>2018 — 2021</span>
+
+              <p class="timeline-text">
+                En el Colegio de Bachilleres, comencé a explorar el fascinante mundo de la programación web y .NET, sentando las bases de mi formación en este campo.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+      </article>
+
+
+      <!--
+        - #PORTAFOLIO
+      -->
+
+      <article class="portafolio" data-page="portafolio">
+
+        <header>
+          <h2 class="h2 article-title">Portafolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Seleccionar categoria</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://practica1ivanazuara.000webhostapp.com">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="finance" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Practica 1</h3>
+
+                <p class="project-category">Tabla de etiquetas HTML</p>
+
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
